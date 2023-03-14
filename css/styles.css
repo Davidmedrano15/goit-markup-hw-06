@@ -93,26 +93,32 @@ a {
 .nav .nav-list .nav-list-item:hover,
 .nav .nav-list .nav-list-item:focus {
   color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-contac .list-item:hover,
 .list-contac .list-item:focus {
   color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot .list-foot .list-foot-item:hover,
 .foot .list-foot .list-foot-item:focus {
   color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot .list-foot .foot-item:hover,
 .foot .list-foot .foot-item:focus {
   color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main .button-menu .btn:hover,
 .main .button-menu .btn:focus {
   color: var(--foot);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main .main-item .btn-item:hover,
 .main .main-item .btn-item:focus {
   color: var(--foot);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 svg {
   fill: currentColor;
@@ -165,6 +171,7 @@ svg {
 }
 .list-contac svg:hover {
   color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo {
   color: var(--brand-color);
@@ -236,10 +243,10 @@ svg {
   padding: 6px 24px;
   border-radius: 4px;
 }
-
 .btn:hover {
   background-color: var(--brand-color);
   color: var(--foot);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallery {
   padding-bottom: 90px;
@@ -350,6 +357,7 @@ svg {
 }
 .img-pic:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tarjeta {
   display: flex;
@@ -383,6 +391,7 @@ svg {
 .icon-item:hover {
   background-color: var(--brand-color);
   color: var(--foot);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .flex-horizontal {
   display: flex;
@@ -406,6 +415,7 @@ svg {
 }
 .icon:hover {
   border: 1px solid #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-pad {
   display: flex;
@@ -416,6 +426,7 @@ svg {
 }
 .icon-pad:hover {
   color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .flex-icon {
   display: flex;
@@ -465,6 +476,7 @@ svg {
 }
 .foot-redes:hover {
   background-color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-item {
   display: flex;
@@ -534,6 +546,7 @@ svg {
 .img-pic:hover .blue {
   height: 83%;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-icon-form {
   position: absolute;
@@ -557,11 +570,11 @@ svg {
   left: 0;
   padding-left: 16px;
   border-radius: 4px;
-
   background-color: var(--fondo);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .suscrib {
   display: flex;
@@ -665,6 +678,7 @@ svg {
 .nombre:hover + .usuario,
 .nombre:focus + .usuario {
   fill: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel2 {
   position: absolute;
@@ -706,6 +720,7 @@ svg {
 .tel:hover + .contact-tel,
 .tel:focus + .contact-tel {
   fill: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email1 {
   position: absolute;
@@ -747,6 +762,7 @@ svg {
 .email:hover + .email-correo,
 .email:focus + .email-correo {
   fill: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comentary1 {
   position: absolute;
